@@ -520,13 +520,16 @@ h2 {
 @media (min-width:400px) and (max-width:600px) {
   .drag-drop-area {
     min-height: 340px;
-    min-width: 425px;
+    min-width: 325px;
     margin: 75px 60px 0px;
   }
 
   .right-pane {
     margin-bottom: 55px;
     transform: scale(0.85);
+  }
+  .main-layout{
+    gap: 0px;
   }
 }
 
@@ -540,7 +543,7 @@ h2 {
   .right-pane {
     padding: 0px;
     transform: scale(0.8);
-    margin-bottom: 5px;
+    margin-bottom: 40px;
   }
   .main-layout {
     gap: 0px;
@@ -558,7 +561,7 @@ h2 {
 }
 
 
-@media (max-width:350px) {
+@media (max-width:350px) and (min-width:320px){
   .drag-drop-area {
     min-height: 250px;
     min-width: 270px;
@@ -567,7 +570,7 @@ h2 {
 
   .right-pane {
     transform: scale(0.8);
-    margin-bottom: 10px;
+    margin-bottom: 210px;
   }
 
   .option-btn {
@@ -582,6 +585,31 @@ h2 {
     min-height: 110vh;
   }
 }
+@media (max-width:319px) {
+  .drag-drop-area {
+    min-height: 225px;
+    min-width: 200px;
+    margin-top: 80px;
+  }
+
+  .right-pane {
+    transform: scale(0.8);
+    margin-bottom: 3px;
+  }
+
+  .option-btn {
+    padding: 15px 21px;
+  }
+  .navbar{
+    padding-top: 11px;
+  }
+  
+  .main-layout {
+    gap: 0px;
+    min-height: 110vh;
+  }
+}
+
 
 @media (min-width:1300px) and (min-height:700px) {
   .drag-drop-area {
@@ -591,4 +619,10 @@ h2 {
   .right-pane {
     margin-bottom: 0px;
   }
+}
+@media (min-width:851px) and (max-width:900px) {
+  .option-btn{
+    padding: 16px 31px;
+  }
+  
 }
