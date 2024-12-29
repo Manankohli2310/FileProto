@@ -1,0 +1,8 @@
+412x822 my 
+360x668 mom
+1349x607 laptop    done
+800x1112 tablet   done
+1280x632 landscape tablet
+
+
+top: 10px, right: 20px, bottom: 30px, left: 40px
